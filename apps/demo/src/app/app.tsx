@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Button } from '@myorg/mylib'
 import styled from 'styled-components';
 
 import { ReactComponent as Logo } from './logo.svg';
@@ -158,6 +159,7 @@ export function App() {
             </div>
           </a>
         </div>
+        <Button />
         <p>Here are some links to help you get started.</p>
         <ul className="resources">
           <li className="col-span-2">

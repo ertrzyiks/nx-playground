@@ -17,4 +17,7 @@ export function Mylib(props: MylibProps) {
   );
 }
 
+export { default as Button } from './components/button'
+export { default as Modal } from './components/modal'
+
 export default Mylib;
